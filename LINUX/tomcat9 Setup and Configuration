@@ -1,0 +1,11 @@
+Install Tomcat9 on Ubuntu22.04
+Step 1 : Update the system repositories
+Command - sudo apt update
+Step 2 : Install Java
+Command - sudo apt install openjdk-11-jre-headless
+Step 4: Install Apache Tomcat Server on Ubuntu 22.04
+Command - sudo apt install tomcat9 tomcat9-admin
+
+To change default port in tomcat9
+Command - sudo vi /var/lib/tomcat9/conf/server.xml
+
